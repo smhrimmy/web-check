@@ -42,18 +42,18 @@ const ALink = styled.a`
 `;
 
 const Footer = (props: { isFixed?: boolean }): JSX.Element => {
-  const licenseUrl = 'https://github.com/lissy93/web-check/blob/master/LICENSE';
-  const authorUrl = 'https://aliciasykes.com';
-  const githubUrl = 'https://github.com/lissy93/web-check';
+  const licenseUrl = 'https://github.com/smhrimmy/web-check/blob/master/LICENSE';
+  const authorUrl = 'https://github.com/smhrimmy';
+  const githubUrl = 'https://github.com/smhrimmy/web-check';
   return (
   <StyledFooter style={props.isFixed ? {position: 'fixed'} : {}}>
     <span>
-      View source at <ALink href={githubUrl}>github.com/lissy93/web-check</ALink>
+      View source at <ALink href={githubUrl}>github.com/smhrimmy/web-check</ALink>
     </span>
     <span>
       <Link to="/about">Web-Check</Link> is
       licensed under <ALink href={licenseUrl}>MIT</ALink> -
-      © <ALink href={authorUrl}>Alicia Sykes</ALink> 2023
+      © <ALink href={authorUrl}>smhrimmy</ALink> {new Date().getFullYear()}
     </span>
   </StyledFooter>
   );

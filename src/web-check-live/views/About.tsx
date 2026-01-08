@@ -140,7 +140,7 @@ const About = (): JSX.Element => {
     <AboutContainer>
       <Nav>
         <HeaderLinkContainer>
-          <a target="_blank" rel="noreferrer" href="https://github.com/lissy93/web-check"><Button>View on GitHub</Button></a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/smhrimmy/web-check"><Button>View on GitHub</Button></a>
         </HeaderLinkContainer>
       </Nav>
 
@@ -150,33 +150,11 @@ const About = (): JSX.Element => {
           <p key={index}>{para}</p>
         ))}
         <hr />
-        <SponsorshipContainer>
-          <p>
-            Web-Check is kindly sponsored
-            by <a target="_blank" rel="noreferrer" href="https://terminaltrove.com/?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
-              Terminal Trove
-            </a>
-            <br />
-            The $HOME of all things in the terminal.
-            <br />
-            <small>
-              <a target="_blank" rel="noreferrer" href="https://terminaltrove.com/newsletter?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
-                Find your next CLI / TUI tool, and get updates to your inbox
-              </a>
-            </small>
-          </p>
-          <a target="_blank" rel="noreferrer" href="https://terminaltrove.com/?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
-            <img width="300" alt="Terminal Trove" src="https://i.ibb.co/T1KzVmR/terminal-trove-green.png" />
-          </a>
-        </SponsorshipContainer>
-        <hr />
         <p>
-          Web-Check is developed and maintained by <a target="_blank" rel="noreferrer" href="https://aliciasykes.com">Alicia Sykes</a>.
-          It's licensed under the <a target="_blank" rel="noreferrer" href="https://github.com/Lissy93/web-check/blob/master/LICENSE">MIT license</a>,
+          Web-Check is developed and maintained by <a target="_blank" rel="noreferrer" href="https://github.com/smhrimmy">smhrimmy</a>.
+          It's licensed under the <a target="_blank" rel="noreferrer" href="https://github.com/smhrimmy/web-check/blob/master/LICENSE">MIT license</a>,
           and is completely free to use, modify and distribute in both personal and commercial settings.<br />
-          Source code and self-hosting docs are available on <a target="_blank" rel="noreferrer" href="https://github.com/lissy93/web-check">GitHub</a>.
-          If you've found this service useful, consider <a target="_blank" rel="noreferrer" href="https://github.com/sponsors/Lissy93">sponsoring me</a> from $1/month,
-          to help with the ongoing hosting and development costs.
+          Source code and self-hosting docs are available on <a target="_blank" rel="noreferrer" href="https://github.com/smhrimmy/web-check">GitHub</a>.
         </p>
       </Section>
       
@@ -233,13 +211,13 @@ const About = (): JSX.Element => {
         <p>Web-Check is designed to be easily self-hosted.</p>
         <Heading as="h3" size="small" color={colors.primary}>Option #1 - Netlify</Heading>
         <p>Click the button below to deploy to Netlify</p>
-        <a target="_blank" rel="noreferrer" href="https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/web-check">
+        <a target="_blank" rel="noreferrer" href="https://app.netlify.com/start/deploy?repository=https://github.com/smhrimmy/web-check">
           <img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />
         </a>
 
         <Heading as="h3" size="small" color={colors.primary}>Option #2 - Vercel</Heading>
         <p>Click the button below to deploy to Vercel</p>
-        <a target="_blank" rel="noreferrer" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flissy93%2Fweb-check&project-name=web-check&repository-name=web-check-fork&demo-title=Web-Check%20Demo&demo-description=Check%20out%20web-check.xyz%20to%20see%20a%20live%20demo%20of%20this%20application%20running.&demo-url=https%3A%2F%2Fweb-check.xyz&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2FLissy93%2Fweb-check%2Fmaster%2F.github%2Fscreenshots%2Fweb-check-screenshot10.png">
+        <a target="_blank" rel="noreferrer" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsmhrimmy%2Fweb-check&project-name=web-check">
           <img src="https://vercel.com/button" alt="Deploy with Vercel" />
         </a>
 
@@ -253,7 +231,7 @@ const About = (): JSX.Element => {
 
         <Heading as="h3" size="small" color={colors.primary}>Option #4 - Manual</Heading>
         <pre>
-        git clone https://github.com/Lissy93/web-check.git<br />
+        git clone https://github.com/smhrimmy/web-check.git<br />
         cd web-check # Move into the project directory<br />
         yarn install # Install dependencies<br />
         yarn build # Build the app for production<br />
@@ -263,7 +241,7 @@ const About = (): JSX.Element => {
         <Heading as="h3" size="small" color={colors.primary}>Further Docs</Heading>
         <p>
           More detailed installation and setup instructions can be found in the
-          GitHub repository - <a target="_blank" rel="noreferrer" href="https://github.com/lissy93/web-check#readme">github.com/lissy93/web-check</a>
+          GitHub repository - <a target="_blank" rel="noreferrer" href="https://github.com/smhrimmy/web-check#readme">github.com/smhrimmy/web-check</a>
         </p>
 
         <Heading as="h3" size="small" color={colors.primary}>Configuring</Heading>
