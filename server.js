@@ -18,7 +18,8 @@ const __dirname = path.dirname(__filename);
 
 const port = process.env.PORT || 3000; // The port to run the server on
 const API_DIR = '/api'; // Name of the dir containing the lambda functions
-const dirPath = path.join(__dirname, API_DIR); // Path to the lambda functions dir
+const API_LIB_DIR = path.join(__dirname, 'api', '_lib'); // Path to the lambda functions dir
+const dirPath = API_LIB_DIR; 
 const guiPath = path.join(__dirname, 'dist', 'client');
 const placeholderFilePath = path.join(__dirname, 'public', 'placeholder.html');
 const handlers = {}; // Will store list of API endpoints

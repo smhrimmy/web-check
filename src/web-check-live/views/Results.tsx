@@ -830,6 +830,13 @@ const Results = (props: { address?: string } ): JSX.Element => {
       refresh: updateSiteFeaturesResults,
       tags: ['meta'],
     }, {
+      id: 'cms-diagnostics',
+      title: 'CMS & Error Diagnostics',
+      result: cmsDiagnosticsResults,
+      Component: CmsDiagnosticsCard,
+      refresh: updateCmsDiagnosticsResults,
+      tags: ['server', 'security'],
+    }, {
       id: 'sitemap',
       title: 'Pages',
       result: sitemapResults,

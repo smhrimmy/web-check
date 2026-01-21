@@ -506,6 +506,13 @@ const docs: Doc[] = [
     screenshot: 'https://i.ibb.co/F7qRZkh/Screenshot-from-2023-08-26-12-11-28.png',
   },
   {
+    id: 'cms-diagnostics',
+    title: 'CMS & Error Diagnostics',
+    description: 'Scans the website for common Content Management System (CMS) signatures (like WordPress, Joomla, etc.) and checks for potentially exposed sensitive files (like debug logs, config backups) and common error messages.',
+    use: 'Useful for identifying the underlying technology of a website and discovering potential security misconfigurations or exposed debugging information that could be leveraged by attackers.',
+    resources: [],
+  },
+  {
     id: 'screenshot',
     title: 'Screenshot',
     description: 'This check takes a screenshot of webpage that the requested URL / IP resolves to, and displays it.',
